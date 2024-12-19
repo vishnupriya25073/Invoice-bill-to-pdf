@@ -1,0 +1,13 @@
+/* App.css */
+.invoice-container {
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+}
+
+@media print {
+  .invoice-container {
+    border: none;
+    box-shadow: none;
+  }
+}
+
